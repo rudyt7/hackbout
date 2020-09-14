@@ -15,7 +15,7 @@ import matic from "../../../assets/img/Matic.png";
 import girlGeeks from "../../../assets/img/girlGeeks.png";
 import map from "../../../assets/img/map.png";
 import nmit from "../../../assets/img/nmit.png";
-// import ibm from "../../../assets/img/ibm.svg";
+import ibm from "../../../assets/img/ibm.jpg";
 import call from "../../../assets/img/callforcode.png";
 
 const Bounties = () => {
@@ -56,20 +56,29 @@ const Bounties = () => {
                         style={{
                           position: "relative",
                           fontSize: "30px",
-                          display: "block",
-                          top: "-30px",
-                          left: "-15%",
-                          fontWeight: "800"
+                          display: "block"
                         }}
                       >
-                        IBM
                         <img
-                          src={call}
-                          alt="matic"
+                          src={ibm}
+                          alt="ibm"
                           style={{
                             position: "relative",
                             maxWidth: "30%",
-                            left: "30%",
+                            top: "-20px",
+                            left: "-15%",
+                            transform: "scale(1.5)",
+                            display: "inline"
+                          }}
+                        />
+                        <img
+                          src={call}
+                          alt="code"
+                          style={{
+                            position: "relative",
+                            maxWidth: "30%",
+                            top: "-30px",
+                            left: "15%",
                             transform: "scale(1.5)",
                             display: "inline"
                           }}
@@ -126,20 +135,29 @@ const Bounties = () => {
                         style={{
                           position: "relative",
                           fontSize: "30px",
-                          display: "block",
-                          top: "-30px",
-                          left: "-15%",
-                          fontWeight: "800"
+                          display: "block"
                         }}
                       >
-                        IBM
+                        <img
+                          src={ibm}
+                          alt="ibm"
+                          style={{
+                            position: "relative",
+                            maxWidth: "30%",
+                            top: "-20px",
+                            left: "-15%",
+                            transform: "scale(1.5)",
+                            display: "inline"
+                          }}
+                        />
                         <img
                           src={call}
                           alt="matic"
                           style={{
                             position: "relative",
                             maxWidth: "30%",
-                            left: "30%",
+                            top: "-30px",
+                            left: "15%",
                             transform: "scale(1.5)",
                             display: "inline"
                           }}
