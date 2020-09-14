@@ -1,39 +1,27 @@
-.mainSponsors {
-  max-width: 90%;
-  max-height: 90%;
-}
-
 .hackClub {
   position: relative;
-  top: 55px;
+  top: 25px;
   max-width: 70%;
   max-height: 70%;
 }
 
 .github {
   position: relative;
-  top: 45px;
+  top: 10px;
   max-width: 90%;
   max-height: 90%;
 }
 
 .ibm {
-  max-width: 40%;
+  max-width: 70%;
   max-height: 60%;
   position: relative;
-  top: -30px;
+  top: 0px;
 }
-
-/* .ibm {
-  max-width: 40%;
-  max-height: 60%;
-  position: relative;
-  top: -30px;
-} */
 
 .devfolio {
   position: relative;
-  top: 60px;
+  top: 20px;
   max-width: 95%;
   max-height: 90%;
 }
@@ -42,28 +30,26 @@
   max-width: 65%;
   max-height: 65%;
   position: relative;
-  top: 25px;
 }
 
 .fold {
   max-width: 70%;
   max-height: 50%;
   position: relative;
-  top: 20px;
 }
 
 .codingBlocks {
   max-width: 80%;
   max-height: 80%;
   position: relative;
-  top: 20px;
+  top: -10px;
 }
 
 .stickermule {
   max-width: 80%;
   max-height: 70%;
   position: relative;
-  top: 40px;
+  top: 5px;
 }
 .voiceflow {
   max-width: 60%;
@@ -76,14 +62,14 @@
   max-width: 65%;
   max-height: 65%;
   position: relative;
-  top: 40px;
+  top: 10px;
 }
 
 .girlGeeks {
   max-width: 60%;
   max-height: 60%;
   position: relative;
-  top: 40px;
+  top: 10px;
 }
 
 .jetbrains {
@@ -97,7 +83,7 @@
   max-width: 65%;
   max-height: 60%;
   position: relative;
-  top: -20px;
+  top: -35px;
 }
 
 .gatsby {
@@ -111,28 +97,27 @@
   max-width: 60%;
   max-height: 60%;
   position: relative;
-  top: 5px;
 }
 
 .ieee {
   max-width: 90%;
   max-height: 90%;
   position: relative;
-  top: 10px;
+  top: -10px;
 }
 
 .bugsee {
   max-width: 70%;
   max-height: 70%;
   position: relative;
-  top: -50px;
+  top: -20px;
 }
 
 .blkIndia {
   max-width: 75%;
   max-height: 75%;
   position: relative;
-  top: -50px;
+  top: -45px;
 }
 
 .rocket {
@@ -145,7 +130,7 @@
   max-width: 45%;
   max-height: 40%;
   position: relative;
-  top: -37px;
+  top: -35px;
 }
 .tim {
   max-width: 70%;
@@ -158,7 +143,7 @@
   max-width: 55%;
   max-height: 60%;
   position: relative;
-  top: -25px;
+  top: -70px;
 }
 
 .sketch {
@@ -172,14 +157,14 @@
   position: relative;
   max-height: 80%;
   max-width: 70%;
-  top: -70px;
+  top: -50px;
 }
 
 .cloudsploit {
   position: relative;
   max-height: 60%;
   max-width: 70%;
-  top: -50px;
+  top: -30px;
 }
 
 .restdb {
@@ -193,26 +178,30 @@
   position: relative;
   max-height: 60%;
   max-width: 70%;
-  top: -30px;
+  top: -65px;
 }
 
 .moz {
   position: relative;
   max-height: 60%;
   max-width: 78%;
-  top: 20px;
+  top: -70px;
 }
 .fbdev {
   position: relative;
   max-height: 100%;
   max-width: 100%;
-  top: 85px;
+  top: -25px;
 }
 
 @media (max-width: 1200px) {
   .github {
     position: relative;
-    top: 25px;
+    top: 30px;
+  }
+
+  .ibm {
+    top: 15px;
   }
   .hackClub {
     position: relative;
@@ -235,7 +224,7 @@
     position: relative;
     max-height: 100%;
     max-width: 80%;
-    top: -150px;
+    top: -110px;
   }
 
   .balsamiq {
@@ -246,103 +235,94 @@
   }
 }
 
-@media (max-width: 990px) {
-  .mainSponsors {
-    max-width: 70%;
-    max-height: 90%;
+@media (max-width: 575px) {
+  .hackClub {
+    position: relative;
+    top: 0px;
+    max-width: 60%;
+    max-height: 60%;
   }
 
   .github {
     position: relative;
-    top: 40px;
+    top: 0px;
+    max-width: 90%;
+    max-height: 90%;
+  }
+
+  .devfolio {
+    position: relative;
+    top: 0px;
+    max-width: 55%;
+  }
+
+  .ibm {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: -20px;
+    margin: 0 !important;
+  }
+
+  .matic {
+    max-width: 45%;
+    max-height: 55%;
+    position: relative;
+  }
+
+  .fold {
+    max-width: 30%;
+    max-height: 40%;
+    top: 0;
+    position: relative;
   }
 
   .codingBlocks {
+    max-width: 60%;
+    max-height: 60%;
+    position: relative;
+    top: 0px;
+  }
+
+  .stickermule {
+    max-width: 60%;
+    max-height: 60%;
+    position: relative;
+    top: 10px;
+  }
+  .voiceflow {
+    max-width: 40%;
+    max-height: 50%;
+    position: relative;
+    top: 0px;
+  }
+
+  .digiOcean {
+    max-width: 55%;
+    max-height: 90%;
+    position: relative;
+    top: -20px;
+  }
+
+  .girlGeeks {
+    max-width: 70%;
+    max-height: 70%;
+    position: relative;
+    top: 0px;
+  }
+
+  .jetbrains {
     max-width: 80%;
     max-height: 80%;
     position: relative;
     top: 0px;
   }
 
-  .rocket {
-    max-width: 60%;
-    max-height: 60%;
-    position: relative;
-    top: -10px;
-  }
-
-  .blkIndia {
-    max-width: 60%;
-    max-height: 60%;
-    position: relative;
-    top: 10px;
-  }
-
-  .snap {
-    top: -20px;
-    max-width: 50%;
-    max-height: 50%;
-  }
-
-  .hackClub {
-    position: relative;
-    top: 25px;
-    max-width: 60%;
-    max-height: 50%;
-  }
-
-  .devfolio {
-    position: relative;
-  }
-  .matic {
-    max-width: 70%;
-    max-height: 60%;
-    position: relative;
-    top: 0px;
-    left: 0px;
-  }
-
-  .fold {
-    max-width: 55%;
-    max-height: 60%;
-    position: relative;
-    top: 0px;
-    left: 0px;
-  }
-
-  .stickermule {
-    max-width: 70%;
-    max-height: 80%;
-    position: relative;
-    top: 15px;
-  }
-
-  .digiOcean {
-    max-width: 65%;
-    max-height: 65%;
-    position: relative;
-    top: 20px;
-  }
-
-  .girlGeeks {
-    max-width: 60%;
-    max-height: 60%;
-    position: relative;
-    top: 20px;
-  }
-
-  .jetbrains {
-    max-width: 70%;
-    max-height: 90%;
-    position: relative;
-    top: 5px;
-  }
-
   .wolfram {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 75%;
+    max-height: 70%;
     position: relative;
-    top: 15px;
+    top: -5px;
   }
 
   .gatsby {
@@ -353,260 +333,115 @@
   }
 
   .inVision {
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 60%;
+    max-height: 60%;
     position: relative;
-    top: 23px;
   }
 
   .ieee {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: -10px;
+  }
+
+  .bugsee {
+    max-width: 80%;
+    max-height: 80%;
+    position: relative;
+    top: 0px;
+  }
+
+  .blkIndia {
+    max-width: 95%;
+    max-height: 95%;
+    position: relative;
+    top: -05px;
+  }
+
+  .rocket {
+    max-width: 50%;
+    max-height: 50%;
+    position: relative;
+    top: 0px;
+  }
+  .snap {
+    max-width: 65%;
+    max-height: 60%;
+    position: relative;
+    top: -5px;
+  }
+  .tim {
     max-width: 100%;
     max-height: 100%;
     position: relative;
     top: -5px;
   }
 
-  .bugsee {
-    max-width: 80%;
-    max-height: 70%;
-    position: relative;
-    top: 0px;
-  }
-
-  .tim {
-    max-width: 75%;
-    max-height: 65%;
-    position: relative;
-    top: -30px;
-  }
-
-  .voiceflow {
-    max-width: 60%;
-    max-height: 50%;
-    position: relative;
-    top: 15px;
-  }
-
   .ninja {
     max-width: 55%;
     max-height: 60%;
     position: relative;
-    top: -65px;
-  }
-  .restdb {
-    position: relative;
-    max-height: 100%;
-    max-width: 70%;
-    top: -120px;
-  }
-
-  .balsamiq {
-    position: relative;
-    max-height: 60%;
-    max-width: 60%;
-    top: -60px;
-  }
-
-  .moz {
-    position: relative;
-    max-height: 70%;
-    max-width: 78%;
-    top: 10px;
-  }
-  .fbdev {
-    position: relative;
-    max-height: 100%;
-    max-width: 100%;
-    top: 65px;
-  }
-}
-
-@media (max-width: 765px) {
-  .rocket {
-    max-width: 90%;
-    max-height: 90%;
-    position: relative;
-    top: -60px;
-  }
-
-  .voiceflow {
-    max-width: 70%;
-    max-height: 60%;
-    position: relative;
-    top: 105px;
-  }
-
-  .snap {
-    max-width: 55%;
-    max-height: 45%;
     top: 0px;
   }
 
-  .github {
-    position: relative;
-    max-width: 90%;
-    max-height: 90%;
-  }
-
-  .matic {
-    max-width: 70%;
-    max-height: 70%;
-    position: relative;
-    top: 35px;
-    left: 0px;
-  }
-
-  .fold {
+  .sketch {
     max-width: 60%;
     max-height: 60%;
     position: relative;
-    top: 45px;
-    left: 0px;
+    top: -5px;
   }
 
-  .stickermule {
-    max-width: 80%;
-    max-height: 80%;
-    position: relative;
-    top: 60px;
-  }
-
-  .codingBlocks {
-    max-width: 80%;
-    max-height: 80%;
-    position: relative;
-    top: 50px;
-  }
-
-  .digiOcean {
-    max-width: 65%;
-    max-height: 65%;
-    position: relative;
-    top: 90px;
-  }
-
-  .jetbrains {
-    max-width: 50%;
-    max-height: 60%;
-    position: relative;
-    top: 50px;
-  }
-
-  .wolfram {
-    max-width: 70%;
-    max-height: 70%;
-    position: relative;
-    top: -20px;
-  }
-
-  .gatsby {
-    max-width: 70%;
-    max-height: 70%;
-    position: relative;
-    top: 20px;
-  }
-
-  .inVision {
-    max-width: 60%;
-    max-height: 70%;
-    position: relative;
-    top: 10px;
-  }
-
-  .ieee {
-    max-width: 80%;
-    max-height: 80%;
-    position: relative;
-    top: 20px;
-  }
-  .girlGeeks {
-    max-width: 65%;
-    max-height: 65%;
-    position: relative;
-    top: 10px;
-  }
-  .bugsee {
-    max-width: 70%;
-    max-height: 60%;
-    position: relative;
-    top: 30px;
-  }
-
-  .blkIndia {
-    max-width: 60%;
-    max-height: 60%;
-    position: relative;
-    top: -10px;
-  }
-
-  .tim {
-    max-width: 70%;
-    max-height: 70%;
-    position: relative;
-    top: -70px;
-  }
-
-  .devfolio {
-    position: relative;
-    max-width: 90%;
-    max-height: 90%;
-  }
-  .ninja {
-    max-width: 65%;
-    max-height: 65%;
-    position: relative;
-    top: -50px;
-  }
   .map {
     position: relative;
-    max-height: 70%;
-    max-width: 70%;
-    top: -120px;
+    max-height: 60%;
+    max-width: 50%;
+    top: 0px;
   }
 
   .cloudsploit {
     position: relative;
-    max-height: 70%;
-    max-width: 70%;
-    top: -80px;
-  }
-  .sketch {
-    max-width: 40%;
-    max-height: 65%;
-    position: relative;
-    top: -50px;
+    max-height: 50%;
+    max-width: 50%;
+    top: 10px;
   }
 
   .restdb {
     position: relative;
-    max-height: 80%;
-    max-width: 70%;
-    top: -120px;
+    max-height: 100%;
+    max-width: 100%;
+    top: -20px;
   }
 
   .balsamiq {
     position: relative;
-    max-height: 80%;
-    max-width: 70%;
-    top: -180px;
+    max-height: 60%;
+    max-width: 50%;
+    top: -10px;
   }
 
+  .moz {
+    position: relative;
+    max-height: 90%;
+    max-width: 78%;
+    top: -20px;
+  }
   .fbdev {
     position: relative;
     max-height: 100%;
     max-width: 100%;
-    top: 0px;
+    top: 15px;
+  }
+
+  .sponsors {
+    transform: scale(1);
+    height: 100px;
+    margin: 0 !important;
   }
 }
 
 .sponsors {
   transform: scale(1);
-}
-
-.sponsors:hover {
-  transform: scale(1.1) translateY(-7px);
-  transition: all 0.3s;
-  box-shadow: 20px #000;
 }
 
 @media (max-width: 600px) {

@@ -1,64 +1,57 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
 
-import github from "../../../assets/img/github-logo.png";
-import hackClub from "../../../assets/img/hack-club.svg";
-import devfolio from "../../../assets/img/Devfolio.png";
-import matic from "../../../assets/img/Matic.png";
-import fold from "../../../assets/img/fold.png";
-import stickerMule from "../../../assets/img/sticker-mule-logo.png";
-import digitalOcean from "../../../assets/img/digitalOcean-logo.png";
-import girlGeeks from "../../../assets/img/girlGeeks.png";
-import jetBrains from "../../../assets/img/jetbrains_logo.png";
-import wolfram from "../../../assets/img/Wolfram.png";
-import gatsby from "../../../assets/img/gatsby.png";
-import inVision from "../../../assets/img/invision.png";
-import ieee from "../../../assets/img/ieee-cs-logo.png";
-import bugsee from "../../../assets/img/bugsee.png";
-import blkIndia from "../../../assets/img/blockchained-india.png";
-import tim from "../../../assets/img/creativetim.png";
-import snap from "../../../assets/img/snap.jpg";
-import rocket from "../../../assets/img/rocket.svg";
-import voiceflow from "../../../assets/img/voiceFlow.png";
-import codingBlocks from "../../../assets/img/codingBlocks.png";
-import map from "../../../assets/img/map.png";
-import cloudsploit from "../../../assets/img/cloudsploit.png";
-import ninja from "../../../assets/img/ninja.svg";
-import sketch from "../../../assets/img/sketch.png";
-import mozilla from "../../../assets/img/moz.jpg";
-import fbDev from "../../../assets/img/fbdev.png";
-import ibm from "../../../assets/img/ibm.jpg";
-import balsamiq from "../../../assets/img/balsamiq.svg";
-import restdb from "../../../assets/img/restdb.webp";
+import github from '../../../assets/img/github-logo.png';
+import hackClub from '../../../assets/img/hack-club.svg';
+import devfolio from '../../../assets/img/Devfolio.png';
+import matic from '../../../assets/img/Matic.png';
+import fold from '../../../assets/img/fold.png';
+import stickerMule from '../../../assets/img/sticker-mule-logo.png';
+import digitalOcean from '../../../assets/img/digitalOcean-logo.png';
+import girlGeeks from '../../../assets/img/girlGeeks.png';
+import jetBrains from '../../../assets/img/jetbrains_logo.png';
+import wolfram from '../../../assets/img/Wolfram.png';
+import gatsby from '../../../assets/img/gatsby.png';
+import inVision from '../../../assets/img/invision.png';
+import ieee from '../../../assets/img/ieee-cs-logo.png';
+import bugsee from '../../../assets/img/bugsee.png';
+import blkIndia from '../../../assets/img/blockchained-india.png';
+import tim from '../../../assets/img/creativetim.png';
+import snap from '../../../assets/img/snap.jpg';
+import rocket from '../../../assets/img/rocket.svg';
+import voiceflow from '../../../assets/img/voiceFlow.png';
+import codingBlocks from '../../../assets/img/codingBlocks.png';
+import map from '../../../assets/img/map.png';
+import cloudsploit from '../../../assets/img/cloudsploit.png';
+import ninja from '../../../assets/img/ninja.svg';
+import sketch from '../../../assets/img/sketch.png';
+import mozilla from '../../../assets/img/moz.jpg';
+import fbDev from '../../../assets/img/fbdev.png';
+import ibm from '../../../assets/img/ibm.jpg';
+import balsamiq from '../../../assets/img/balsamiq.svg';
+import restdb from '../../../assets/img/restdb.webp';
 
-import Styles from "./Sponsors.module.css";
+import Styles from './Sponsors.module.css';
 
 const Sponsors = () => {
   return (
     <div
       className=" section-sponsors pt-5"
       id="sponsors-section"
-      style={{ background: "#ffffff" }}
+      style={{ background: '#ffffff' }}
     >
       <Container className=" pt-5">
-        <p className={["section-bounties-header h1 ", Styles.title].join(" ")}>
-          Sponsors
+        <p className={['section-bounties-header h1 ', Styles.title].join(' ')}>
+          Previous Sponsors
         </p>
         <div className={Styles.under}></div>
 
         <div className="text-center">
-          <div style={{ textAlign: "center", marginBottom: "5px" }}>
-            <h2 style={{ borderBottom: "1px solid black", display: "inline" }}>
-              Title Partners
-            </h2>
-            <br></br>
-            <br></br>
-          </div>
           <Row>
             <Col
               data-aos="fade-up"
-              lg={true}
-              className={["p-3 mb-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['p-3 mb-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://www.github.com/"
@@ -68,14 +61,14 @@ const Sponsors = () => {
                 <img
                   src={github}
                   alt="github-logo"
-                  className={[Styles.mainSponsors, Styles.github].join(" ")}
+                  className={[Styles.github].join(' ')}
                 />
               </a>
             </Col>
             <Col
               data-aos="fade-up"
-              lg={true}
-              className={["p-3 mb-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['p-3 mb-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://devfolio.co/"
@@ -85,32 +78,13 @@ const Sponsors = () => {
                 <img
                   src={devfolio}
                   alt="devfolio-logo"
-                  className={[Styles.mainSponsors, Styles.devfolio].join(" ")}
+                  className={[Styles.devfolio].join(' ')}
                 />
               </a>
             </Col>
-          </Row>
-          <div
-            style={{
-              textAlign: "center",
-              marginTop: "45px",
-              marginBottom: "5px"
-            }}
-          >
-            <h2 style={{ borderBottom: "1px solid black", display: "inline" }}>
-              knowledge Partners
-            </h2>
-          </div>
-          <div
-            style={{
-              textAlign: "center",
-              marginTop: "45px",
-              marginBottom: "5px"
-            }}
-          >
             <Col
-              md={true}
-              className={["mt-4 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-4 text-center', Styles.sponsors].join(' ')}
               data-aos="fade-up"
             >
               <a
@@ -121,18 +95,13 @@ const Sponsors = () => {
                 <img
                   src={ibm}
                   alt="hackclub-logo"
-                  className={[Styles.mainSponsors, Styles.ibm].join(" ")}
+                  className={[Styles.mainSponsors, Styles.ibm].join(' ')}
                 />
               </a>
             </Col>
-            <h3 style={{ borderBottom: "1px solid black", display: "inline" }}>
-              Associate Partners
-            </h3>
-          </div>
-          <Row>
             <Col
-              md={true}
-              className={["mt-4 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-4 text-center', Styles.sponsors].join(' ')}
               data-aos="fade-up"
             >
               <a
@@ -143,14 +112,17 @@ const Sponsors = () => {
                 <img
                   src={hackClub}
                   alt="hackclub-logo"
-                  className={[Styles.mainSponsors, Styles.hackClub].join(" ")}
+                  className={[Styles.mainSponsors, Styles.hackClub].join(' ')}
                 />
               </a>
             </Col>
+          </Row>
+
+          <Row>
             <Col
               data-aos="fade-up"
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
-              md={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
+              sm={true}
             >
               <a
                 href="https://matic.network/"
@@ -162,8 +134,8 @@ const Sponsors = () => {
             </Col>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://fold.money/"
@@ -173,12 +145,10 @@ const Sponsors = () => {
                 <img src={fold} alt="fold-logo" className={Styles.fold} />
               </a>
             </Col>
-          </Row>
-          <Row>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://codingblocks.com/"
@@ -194,8 +164,8 @@ const Sponsors = () => {
             </Col>
             <Col
               data-aos="fade-up"
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
-              md={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
+              sm={true}
             >
               <a
                 href="https://www.stickermule.com/"
@@ -209,10 +179,12 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
+          </Row>
+          <Row>
             <Col
               data-aos="fade-up"
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
-              md={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
+              sm={true}
             >
               <a
                 href="https://www.voiceflow.com/"
@@ -226,11 +198,9 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
-          </Row>
-          <Row>
             <Col
               data-aos="fade-up"
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
               sm={true}
             >
               <a
@@ -247,8 +217,8 @@ const Sponsors = () => {
             </Col>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://www.computer.org/"
@@ -258,11 +228,10 @@ const Sponsors = () => {
                 <img src={ieee} alt="ieee-logo" className={Styles.ieee} />
               </a>
             </Col>
-
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a href="#pablo" target="_blank" rel="noopener noreferrer">
                 <img
@@ -276,8 +245,8 @@ const Sponsors = () => {
           <Row>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://www.gatsbyjs.org/"
@@ -293,8 +262,8 @@ const Sponsors = () => {
             </Col>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://www.invisionapp.com/"
@@ -310,8 +279,8 @@ const Sponsors = () => {
             </Col>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://www.jetbrains.com/"
@@ -325,12 +294,10 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
-          </Row>
-          <Row>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://www.bugsee.com/"
@@ -340,10 +307,12 @@ const Sponsors = () => {
                 <img src={bugsee} alt="bugsee-logo" className={Styles.bugsee} />
               </a>
             </Col>
+          </Row>
+          <Row>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://www.wolfram.com/"
@@ -359,8 +328,8 @@ const Sponsors = () => {
             </Col>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://blockchainedindia.com/"
@@ -374,12 +343,10 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
-          </Row>
-          <Row>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://www.challengerocket.com/"
@@ -391,8 +358,8 @@ const Sponsors = () => {
             </Col>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://www.snapchat.com/"
@@ -402,10 +369,12 @@ const Sponsors = () => {
                 <img src={snap} alt="snap-logo" className={Styles.snap} />
               </a>
             </Col>
+          </Row>
+          <Row>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://www.creative-tim.com/"
@@ -415,12 +384,10 @@ const Sponsors = () => {
                 <img src={tim} alt="creative-tim-logo" className={Styles.tim} />
               </a>
             </Col>
-          </Row>
-          <Row>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://www.mapmyindia.com/"
@@ -432,8 +399,8 @@ const Sponsors = () => {
             </Col>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://cloudsploit.com/"
@@ -449,8 +416,8 @@ const Sponsors = () => {
             </Col>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://www.sketch.com/"
@@ -464,8 +431,8 @@ const Sponsors = () => {
           <Row>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://www.codingninjas.com/"
@@ -481,8 +448,8 @@ const Sponsors = () => {
             </Col>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://restdb.io"
@@ -498,8 +465,8 @@ const Sponsors = () => {
             </Col>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://balsamiq.com/"
@@ -513,31 +480,10 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
-          </Row>
-          <div
-            style={{
-              textAlign: "center",
-              marginTop: "-95px",
-              marginBottom: "5px"
-            }}
-          >
-            <h3
-              style={{
-                borderBottom: "1px solid black",
-                position: "relative",
-                display: "inline",
-                marginTop: "-100px",
-                marginBottom: "20px"
-              }}
-            >
-              Community Partners
-            </h3>
-          </div>
-          <Row>
             <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-5 text-center', Styles.sponsors].join(' ')}
             >
               <a
                 href="https://mozillaindia.org/"
@@ -552,8 +498,8 @@ const Sponsors = () => {
               </a>
             </Col>
             <Col
-              md={true}
-              className={["mt-4 text-center", Styles.sponsors].join(" ")}
+              sm={true}
+              className={['mt-4 text-center', Styles.sponsors].join(' ')}
               data-aos="fade-up"
             >
               <a
@@ -564,7 +510,7 @@ const Sponsors = () => {
                 <img
                   src={fbDev}
                   alt="facebook-developer-circle-logo"
-                  className={[Styles.mainSponsors, Styles.fbdev].join(" ")}
+                  className={[Styles.mainSponsors, Styles.fbdev].join(' ')}
                 />
               </a>
             </Col>
