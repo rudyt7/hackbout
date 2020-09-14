@@ -1,65 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#23b574" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <title>HackBout</title>
+    <meta name="description" content="" />
+    <script
+      src="https://kit.fontawesome.com/3f2072e0c3.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"
+      defer
+    ></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon.png" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-icon.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" />
-  <title>HackBout | 4th-5th March at Nitte Meenakshi Institute of Technology, Bangalore #hackathon</title>
-  <script src="https://kit.fontawesome.com/3f2072e0c3.js" crossorigin="anonymous"></script>
-
-   <script type="text/javascript">
-    (function(l) {
-      if (l.search) {
-        var q = {};
-        l.search.slice(1).split('&').forEach(function(v) {
-          var a = v.split('=');
-          q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
-        });
-        if (q.p !== undefined) {
-          window.history.replaceState(null, null,
-            l.pathname.slice(0, -1) + (q.p || '') +
-            (q.q ? ('?' + q.q) : '') +
-            l.hash
-          );
-        }
-      }
-    }(window.location))
-  </script>
-  <style>
-.go-top {
-  position: fixed;
-  cursor: pointer;
-  bottom: 30px;
-  right: 0;
-  color: #ffffff;
-  background-color: #22B573;
-  z-index: 1;
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  border-radius: 50%;
-  margin-right: 1%;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-.fa-chevron-up{
-  margin-top: 29%;
-  font-size: 22px;
-}
-  </style>
-
-</head>
-
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-  <div id="app"></div>
-</body>
-
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
 </html>
